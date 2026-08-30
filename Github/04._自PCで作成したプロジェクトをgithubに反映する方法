@@ -1,1 +1,17 @@
+## 手順1:クローンするリポジトリを開く
+GitHubで、PCへコピーしたいリポジトリを開く<br>
 
+## 手順2:リポジトリのURLをコピーする
+画面右上付近の緑色の 「Code」ボタンを押す<br>
+「HTTPS」を選んで、URLの右側にあるコピーを押す<br>
+
+## 手順3:C:\Projects(フォルダを作成したい場所)に移動
+cd C:\Projects<br>
+
+## 手順4:PowerShellで以下のコマンドを実行
+git clone 手順2でコピーしたURL<br>
+
+## 手順5:dirコマンドを実行し以下の結果が表示されれば成功!!
+.gitignore<br>
+LICENSE<br>
+README.md<br>
